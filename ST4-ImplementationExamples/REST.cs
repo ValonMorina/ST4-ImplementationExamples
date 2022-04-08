@@ -37,8 +37,8 @@ namespace ST4_ImplementationExamples
             putRequest.RequestFormat = DataFormat.Json;//define format
 
             //PUT request
-            var response = await client.PutAsync(putRequest);
-            Console.WriteLine("PUT request response" + response.Content);
+            //var response = await client.PutAsync(putRequest);
+            //Console.WriteLine("PUT request response" + response.Content);
         }
 
         //test status method
